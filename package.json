@@ -1,0 +1,24 @@
+{
+  "name": "quick_conflict",
+  "version": "1.0.0",
+  "description": "Helps to resolve Bitbucket PR conflicts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "bitbucket",
+    "pr",
+    "conflict"
+  ],
+  "author": "Konstantin_Mishur@epam.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
