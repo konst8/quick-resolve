@@ -1,10 +1,11 @@
 {
-  "name": "quick_conflict",
+  "name": "quick_resolve",
   "version": "1.0.0",
   "description": "Helps to resolve Bitbucket PR conflicts",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "git",
@@ -15,10 +16,13 @@
   "author": "Konstantin_Mishur@epam.com",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@happy-dom/jest-environment": "^6.0.4",
+    "@types/jest": "^29.0.0",
+    "babel-jest": "^29.0.1",
     "eslint": "^8.22.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.5",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.0.1"
   }
 }
